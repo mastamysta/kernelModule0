@@ -27,7 +27,7 @@ static int __init eventTest_init(void){
         printk(KERN_ALERT "Event test module load failed");
         return major;
     }else{
-        printk(KERN_INFO "Module has been loaded and updated.\n");
+        printk(KERN_INFO "Module has been loaded and updated, with major number: %i\n", major);
     }    
     return 0;
 }
