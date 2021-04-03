@@ -1,0 +1,1 @@
+cmd_/home/mastamysta/Programming/Kernel/kernelModule0/eventTest.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/mastamysta/Programming/Kernel/kernelModule0/eventTest.ko /home/mastamysta/Programming/Kernel/kernelModule0/eventTest.o /home/mastamysta/Programming/Kernel/kernelModule0/eventTest.mod.o;  true
